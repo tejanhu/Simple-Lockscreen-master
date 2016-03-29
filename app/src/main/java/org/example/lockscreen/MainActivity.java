@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
         makeFullScreen();
         startService(new Intent(this,LockScreenService.class));
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main2);
     }
 
     /**
